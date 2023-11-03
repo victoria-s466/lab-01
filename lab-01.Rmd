@@ -263,6 +263,14 @@ _Within each of the 4 nations, what is the proportion of tourist attractions tha
 
 
 ```
+```{r}
+created_at <- (1.499812e+12)/1000
+
+
+dt_created_at <- as.POSIXct(created_at, origin = "1970-01-01")
+
+dt_created_at
+```
 
 
 ### Exercise n.
@@ -275,3 +283,22 @@ _Calculate the percentage change in visitor admissions from 2021 to 2022. Of the
 
 
 ```
+
+
+
+
+
+
+
+
+
+
+
+```{r}
+# Do not edit this code chunk!
+library(tidyverse) 
+```
+```{r}
+games <- read_csv("archive(1).zip")
+```
+
